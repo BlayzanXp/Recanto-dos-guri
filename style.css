@@ -1,0 +1,83 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Remove a rolagem */
+    background-color: #808080; /* Cinza exato que você pediu */
+    font-family: Arial, sans-serif;
+}
+
+/* Simulando a tela do celular */
+#phone {
+    width: 400px; /* Tamanho ajustado para parecer um celular */
+    height: 700px;
+    background: white;
+    border-radius: 30px; /* Borda arredondada para parecer mais realista */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagem centralizada */
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Centralizando os botões */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Agora está bem no centro */
+    width: 100%;
+}
+
+button {
+    width: 80%;
+    max-width: 300px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    margin: 10px 0;
+    transform: translateX(20px); /* Ajuste esse valor até os botões ficarem no lugar certo */
+    
+}
+
+#cadastro {
+    background: #28a745;
+    color: white;
+}
+
+#login {
+    background: #007bff;
+    color: white;
+}
+
+#cadastro:hover {
+    background: #218838;
+}
+
+#login:hover {
+    background: #0056b3;
+}

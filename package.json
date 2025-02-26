@@ -1,0 +1,16 @@
+{
+  "name": "recanto-dos-guri",
+  "version": "1.0.0",
+  "description": "Aplicativo super funcional para saber receitas com os ingredientes que você tem na sua casa",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.2.0"
+  }
+}
